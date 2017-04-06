@@ -20,12 +20,12 @@ header, footer {
   float: left;
 }
 #btnChg {
-    background-color: blue;
+  background-color: blue;
 }
 #btnChg.toggled {
-    background-color: orange;
+  background-color: orange;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   header, footer{
     width: 100%;
   }
