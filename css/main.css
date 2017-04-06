@@ -21,3 +21,15 @@ header, footer {
   width: 50%;
   float: left;
 }
+@media (max-width: 700px) {
+  header, footer{
+    width: 100%;
+  }
+  .top {
+    width: 100%;
+    float: left;
+  }
+  .bottom {
+    width: 100%;
+  }
+}
