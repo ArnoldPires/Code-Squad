@@ -1,21 +1,546 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>Git-Practice</title>
-  </head>
-  <body>
-    <header type="button" id="btnChg" value="ChangeColor" onclick="btnColor('btnChg')" />A
-    </header>
-    <section class="top">1</section>
-    <section class="top">2</section>
-    <section class="top">3</section>
-    <section class="bottom">4</section>
-    <section class="bottom">5</section>
-    <footer>B</footer>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script type="text/javascript" src="../js/main.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>GradGuard-Remake</title>
+</head>
+<body>
+  <div class="off-canvas-wrap" data-offcanvas>
+	<div class="inner-wrap">
+
+   		<nav class="tab-bar show-for-medium-down">
+	<section class="left-small">
+		<a class="left-off-canvas-toggle menu-icon" >MENU<span></span></a>
+	</section>
+
+	<section class="middle tab-bar-section">
+		<h1 class="title"><a href="/">GradGuard</a></h1>
+	</section>
+
+	<section class="right">
+		<ul class="inline-list hide-for-small">
+			<li>
+				<a href="http://twitter.com/gradguard" class="twitter" target="0">
+					<span aria-hidden="true" class="iconic circle" data-glyph="social-twitter"></span>
+				</a>
+			</li>
+			<li><a href="http://facebook.com/gradguard" class="facebook" target="0"><span aria-hidden="true" class="iconic circle" data-glyph="social-facebook"></span></a></li>
+			<li><a href="http://pinterest.com/gradguard/" class="pinterest" target="0"><span aria-hidden="true" class="iconic circle" data-glyph="social-pinterest"></span></a></li>
+			<li><a href="https://plus.google.com/105899537060363900915/posts" target="0" class="googleplus">
+				<span aria-hidden="true" class="iconic circle" data-glyph="social-google-plus"></span></a></li>
+			<li><a href="http://blog.gradguard.com/" class="blog" target="0"><span aria-hidden="true" class="iconic circle" data-glyph="rss-alt"></span></a></li>
+		</ul>
+	</section>
+</nav>
+
+<aside class="left-off-canvas-menu">
+	<ul class="off-canvas-list">
+		<li><a href="http://account.gradguard.com" class="button large green secondary">Log In</a></li>
+		<li><label>Products</label></li>
+		<li>
+			<a href="/renters-insurance">Renters</a>		</li>
+
+
+		<li>
+			<a href="/tuition-refund-insurance">Tuition Refund Insurance</a>
+		</li>
+		<li class="has-submenu"><a href="#">Health</a>
+			<ul class="left-submenu">
+				<li class="back"><a href="#">Back</a></li>
+				<li><label>Health</label></li>
+				<li><a href="/health">Health</a></li>
+				<li><a href="/individual-health">Individual Health</a></li>
+				<li><a href="/international-student-health-insurance">International Student Health</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/auto-insurance">Auto</a>		</li>
+		<li>
+			<a href="/travel-insurance">Travel Insurance</a>		</li>
+
+		<li class="has-submenu"><a href="#" class="button">Insurance 101</a>
+			<ul class="left-submenu">
+				<li class="back"><a href="#">Back</a></li>
+				<li><label>Insurance 101</label></li>
+				<li><a href="/resource-center">Resource Center</a></li>
+				<li><a href="http://blog.gradguard.com/">Blog</a></li>
+				<li><a href="/insurance-faqs">FAQ's</a></li>
+				<li><a href="/videos">Videos</a></li>
+				<li><a href="/glossary">Glossary of Terms</a></li>
+				<li><a href="/articles">Articles</a></li>
+			</ul>
+		</li>
+
+		<li class="has-submenu"><a href="#" class="button">About GradGuard</a>
+			<ul class="left-submenu">
+				<li class="back"><a href="#">Back</a></li>
+				<li><label>About GradGuard</label></li>
+				<li><a href="/about-us">About GradGuard</a></li>
+				<li><a href="/team">Team</a></li>
+				<li><a href="/testimonials">Testimonials</a></li>
+				<li><a href="/privacy-policy">Privacy Policy</a></li>
+				<li><a href="/terms-of-use">Terms of Use</a></li>
+				<li><a href="/licensing-information">Licensing Information</a></li>
+			</ul>
+		</li>
+		<li><a href="/contact-us">Contact Us</a></li>
+		<li><a href="/highered">GradGuard for Higher Education</a></li>
+		<li><a href="/our-partners">Our Partners</a></li>
+
+	</ul>
+</aside>
+
+		<header class="cd-main-header hide-for-medium-down">
+	<a class="cd-logo" href="/"><img src="https://gradguard.com/static/images/logo-tag.svg" alt="Logo"></a>
+
+	<ul class="inline-list">
+		<li>
+			<a href="http://twitter.com/gradguard" class="twitter" target="0">
+				<span aria-hidden="true" class="iconic" data-glyph="social-twitter"></span>
+			</a>
+		</li>
+		<li>
+			<a href="http://facebook.com/gradguard" class="facebook" target="0">
+				<span aria-hidden="true" class="iconic" data-glyph="social-facebook"></span>
+			</a>
+		</li>
+		<li>
+			<a href="http://pinterest.com/gradguard/" class="pinterest" target="0">
+				<span aria-hidden="true" class="iconic" data-glyph="social-pinterest"></span>
+			</a>
+		</li>
+		<li>
+			<a href="https://plus.google.com/105899537060363900915/posts" target="0" class="googleplus">
+				<span aria-hidden="true" class="iconic" data-glyph="social-google-plus"></span>
+			</a>
+		</li>
+		<li>
+			<a href="http://blog.gradguard.com/" class="blog" target="0">
+				<span aria-hidden="true" class="iconic" data-glyph="rss-alt"></span>
+			</a>
+		</li>
+	</ul>
+
+	<ul class="cd-header-buttons">
+		<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+	</ul> <!-- cd-header-buttons -->
+</header>
+
+		<div class="cd-main-content">
+			<div id="protolus_root">
+<div class="da-video">
+	<div class="flex-video">
+		<video autoplay loop class="show-for-large-up">
+			<source src="https://gradguard.com/static/images/video/students.webmsd.webm" type="video/webm">
+			<source src="https://gradguard.com/static/images/video/students.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div class="video-overlay">
+		<div class="row">
+			<div class="small-12 medium-10 columns medium-centered">
+				<h2 class="text-center">Find your school's insurance programs:</h2>
+				<p class="text-center">
+					Millions of college students and their families have access to GradGuard benefit programs at their school. See what student benefits are available at your school.
+				</p>
+				<div class="row">
+					<div class="small-11 medium-8 columns medium-centered small-centered">
+						<form method="post" name="schoolSearchForm" id='schoolSearchForm' action="school-search">
+							<input id="api_host" type="hidden" value=""/>
+							<input id="enroll_url" type="hidden" value="https://enroll.gradguard.com"/>
+							<div class="row search-field">
+								<div class="small-7 columns">
+									<input type="text" id="school" name="school" placeholder="School Name" value="">
+								</div>
+								<div class="small-5 columns">
+									<button type="submit" class="button small secondary expand radius" id="programSearchSubmit2"><span aria-hidden="true" class="iconic iconic-sm" data-glyph="magnifying-glass"></span> Search</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="slant">
+	<div class="row bottom-part">
+		<div class="small-12 columns">
+			<h3 class="text-center">Or browse our product lineup, built for students and grads.</h3>
+			<ul class="small-block-grid-2 large-block-grid-5">
+				<li>
+					<div class="circle-container">
+						<div class="circle">
+							<div class="front">
+								<img class="badge" src="https://gradguard.com/static/images/renters-badge.svg" />
+							</div>
+							<div class="back">
+								<a href="/renters-insurance" class="move-up">College <br/>Renters Insurance</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="circle-container">
+						<div class="circle">
+							<div class="front">
+								<img class="badge" src="https://gradguard.com/static/images/tri-badge.svg" />
+							</div>
+							<div class="back">
+								<a href="/tuition-refund-insurance" class="move-up">Tuition <br> Refund Insurance</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="circle-container">
+						<div class="circle">
+							<div class="front">
+								<img class="badge" src="https://gradguard.com/static/images/auto-badge.svg" />
+							</div>
+							<div class="back">
+								<a href="/auto-insurance">Car <br>Insurance</a>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="circle-container">
+						<div class="circle">
+							<div class="front">
+								<img class="badge" src="https://gradguard.com/static/images/travel-badge.svg" />
+							</div>
+							<div class="back">
+								<a href="/travel-insurance">Travel Insurance</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="mission">
+	<div class="row">
+		<div class="small-12 columns">
+			<img src="https://gradguard.com/static/images/stacked.svg" alt="" />
+			<h4 class="text-center">Our mission is to help families protect their investment in Higher Education.</h4>
+		</div>
+	</div>
+</div>
+
+<div class="factoids hide-for-small hide-for-medium">
+	<div class="row">
+		<div class="small-12 columns">
+			<ul class="facts no-bullet" data-orbit data-options="animation_speed:500;pause_on_hover:true;resume_on_mouseout:true;navigation_arrows:true;slide_number:false;bullets:false;timer:true;timer_container_class:hide;">
+				<li>
+					<p class="text-center">
+						Nationally, about 13% of students who started at a 4-year public institution, completed at a school other than the starting institution. <br>
+						<small>2016 NSC: Completing College: A State-Level View of Student Attainment Rates</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						32% of students who started at two-year public institutions and completed did so at an institution <br> other than the one where they first enrolled, nationally. <br>
+						<small>2016 NSC: Completing College: A State-Level View of Student Attainment Rates</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						The overall six-year completion rate for first-time-in college degree-seeking students who started college in fall 2009 was 52.9% <br>
+						<small>2016 NSC: Completing College: A State-Level View of Student Attainment Rates</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						Nearly 25% of students who completed a degree did so at an institution other than the one where they first enrolled. <br>
+						<small>2016 NSC: Completing College: A State-Level View of Student Attainment Rates</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						61.2% of students who started at a 4 year public institution in 2009 completed college.<br>
+						<small>2016 NSC: Completing College: A State-Level View of Student Attainment Rates</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						71.5% of students who started at a 4 year private nonprofit institution in 2009 completed college. <br>
+						<small>2016 NSC: Completing College: A State-Level View of Student Attainment Rates</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						1.7% of students report having been diagnosed with mononucleosis in the past 12 months. <br>
+						<small>Spring 2015 ACHA-National College Health Assessment II</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						4.6% of students report having a chronic illness <br>
+						<small>Spring 2015 ACHA-National College Health Assessment II</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						7.1% of students report having a psychiatric condition <br>
+						<small>Spring 2015 ACHA-National College Health Assessment II</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						2.3% of students report an injury as a negative factor on their academic performance. <br>
+						<small>Spring 2015 ACHA-National College Health Assessment II</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						14.8% of students report depression as a negative factor on their academic performance. <br>
+						<small>Spring 2015 ACHA-National College Health Assessment II</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						6,722 burglaries were reported in on campus housing facilities in 2014 <br>
+						<small>Office of Post Secondary Education Clery 2014 Data of 4 year non-profit institutions</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						11,931 burglaries were reported on campus in 2014 <br>
+						<small>Office of Post Secondary Education Clery 2014 Data of 4 year non-profit institutions</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						3,296 fires were reported in on campus housing facilities in 2014. <br>
+						<small>Office of Post Secondary Education Clery 2014 Data of 4 year non-profit institutions</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						18,653 burglaries were reported in on campus housing facilities in 2014 <br>
+						<small>Office of Post Secondary Education Clery 2014 Data of 4 year non-profit institutions</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						67% of directors of student housing survey respondents report that they do not replace student property caused by a fire or flood <br>
+						<small>2013 Survey of 75 directors of student housing</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						97% of directors of student housing survey respondents report that they do not replace stolen bicycles or computers  <br>
+						<small>2013 Survey of 75 directors of student housing</small>
+					</p>
+
+				</li>
+				<li>
+					<p class="text-center">
+						4 in 5 housing directors believe that financial losses to students due to the loss of a bicycle, a <br> backpack or a computer can qualify as a college student financial crisis. <br>
+						<small>2013 Survey of 75 directors of student housing</small>
+					</p>
+
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="video-fix">
+	<div class="customers">
+		<div class="row">
+			<div class="small-12 columns">
+				<h6 class="text-center">See what our customers have to say</h6>
+				<div class="row">
+					<div class="small-12 medium-4 columns">
+						<img src="https://gradguard.com/static/images/lady.svg" alt="" />
+						<p>“Every interaction we had with your company resulted in a positive experience on a personal and professional level and we appreciate that.”
+		<br />- Maria S.</p>
+					</div>
+					<div class="small-12 medium-4 columns">
+						<img src="https://gradguard.com/static/images/lady.svg" alt="" />
+						<p>“I was so impressed with your customer service. I spoke with an agent who answered the phone on the first ring. He was fantastic… He was so enthusiastic about his product and answered all of my questions... I can't wait to sign up.”
+		<br />- Janne B.</p>
+					</div>
+					<div class="small-12 medium-4 columns">
+						<img src="https://gradguard.com/static/images/lady.svg" alt="" />
+						<p>“I was very pleased with the service I got from your agent. She replied to my email very quickly, and she responded to my question in a very clear, concise manner. I very much appreciate the excellent customer service.”
+		<br />- Kellie G.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="products">
+		<div class="row">
+			<div class="small-12 columns">
+				<h5 class="text-center">GradGuard offers a wide arrary of Insurance and Protection products built for college life</h5>
+				<ul class="small-block-grid-1 medium-block-grid-3">
+					<li>
+						<a href="/renters-insurance"><img src="https://gradguard.com/static/images/renters-badge.svg" alt=""></a>
+						<h6 class="text-center"><a href="/renters-insurance">Renters Insurance</a></h6>
+						<p>Help protect your school essentials, like your laptop, smartphone, and other personal belongings, as well as your personal liability with Renters Insurance. <a href="/renters-insurance">Learn More</a></p>
+					</li>
+					<li>
+						<a href="/tuition-refund-insurance"><img src="https://gradguard.com/static/images/tri-badge.svg" alt=""></a>
+						<h6 class="text-center"><a href="/tuition-refund-insurance">Tuition Refund Insurance</a></h6>
+						<p>College is one of the largest investments your family will make. Help protect that investment with Tuition Refund Insurance, which can refund up to 100% of your tuition and fees in the event of a medical withdrawal. <a href="/tuition-refund-insurance">Learn More</a></p>
+					</li>
+					<li>
+						<a href="/auto-insurance"><img src="https://gradguard.com/static/images/auto-badge.svg" alt=""></a>
+						<h6 class="text-center"><a href="/auto-insurance">Car Insurance</a></h6>
+						<p>Leave the stress of shopping for car insurance for college to GradGuard. We'll find you multiple quotes from a real agent, so you'll get convenience, great service, and the best plan for your money. <a href="/auto-insurance">Learn More</a></p>
+					</li>
+					<li>
+						<a href="/travel-insurance"><img src="https://gradguard.com/static/images/travel-badge.svg" alt=""></a>
+						<h6 class="text-center"><a href="/travel-insurance">Travel Insurance</a></h6>
+						<p>Help protect yourself or your loved ones from reimbursement restrictions and unexpected medical costs, along with other benefits travel insurance can provide. <a href="/travel-insurance">Learn More</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="schools">
+		<div class="row">
+			<div class="small-12 columns">
+				<h5 class="text-center">GradGuard has been selected as the preferred provider of protection programs for some of the leading colleges and universities in the nation.</h5>
+			</div>
+		</div>
+
+		<div class="row logo-scroller">
+			<div class="small-12 columns">
+				<div id="fplogos_hype_container" class="hide-for-medium-down" aria-live="polite">
+					<script type="text/javascript" charset="utf-8" src="https://gradguard.com/static/images/fp-logos/fp-logos/fp-logos.hyperesources/fplogos_hype_generated_script.js?64267"></script>
+				</div>
+				<img src="https://gradguard.com/static/images/school-logos.png" alt="" class="show-for-medium-down" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 columns">
+				<a href="/highered" class="button medium radius">Bring GradGuard To My Campus</a>
+			</div>
+		</div>
+		<div class="row hide-for-small">
+			<div class="small-12 columns">
+			<br><br><br>
+				<h5 class="text-center">As Seen In:</h5>
+				<img src="https://gradguard.com/static/images/media-logos/media-logos.svg" alt="">
+			</div>
+		</div>
+	</div>
+</div></div>
+		</div>
+
+		<footer>
+	<div class="row footer-links">
+		<div class="small-8 medium-4 columns small-centered medium-uncentered">
+			<img src="https://gradguard.com/static/images/stacked.svg" width="100%" alt="" />
+
+			<ul class="inline-list">
+				<li>
+					<a href="http://twitter.com/gradguard" class="twitter circle" target="0">
+						<span aria-hidden="true" class="iconic" data-glyph="social-twitter"></span>
+					</a>
+				</li>
+				<li>
+					<a href="http://facebook.com/gradguard" class="facebook circle" target="0">
+						<span aria-hidden="true" class="iconic" data-glyph="social-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a href="http://pinterest.com/gradguard/" class="pinterest circle" target="0">
+						<span aria-hidden="true" class="iconic" data-glyph="social-pinterest"></span>
+					</a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/105899537060363900915/posts" target="0" class="googleplus circle">
+						<span aria-hidden="true" class="iconic" data-glyph="social-google-plus"></span>
+					</a>
+				</li>
+				<li>
+					<a href="http://blog.gradguard.com/" class="blog circle" target="0">
+						<span aria-hidden="true" class="iconic" data-glyph="rss-alt"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="small-12 medium-8 columns hide-for-small">
+			<div class="row">
+				<div class="small-4 columns">
+					<ul class="no-bullet">
+						<li><strong>Products</strong></li>
+
+						<li><a href="/renters-insurance">Renters</a></li>						<li><a href="/tuition-refund-insurance">Tuition Insurance</a></li>
+						<li><a href="/international-student-health-insurance">International Student Health</a></li>
+						<li><a href="/short-term-medical">Short Term Medical Insurance</a></li>
+						<li><a href="/individual-health">Individual Health</a></li>
+						<li><a href="/auto-insurance">Car Insurance</a></li>
+						<li><a href="/travel-insurance">Travel Insurance</a></li>
+
+					</ul>
+				</div>
+				<div class="small-4 columns">
+					<ul class="no-bullet">
+						<li><strong>Resources</strong></li>
+						<li><a href="/resource-center">Resource Center</a></li>
+						<li><a href="/insurance-faqs">FAQ's</a></li>
+						<li><a href="/videos">Video</a></li>
+						<li><a href="http://blog.gradguard.com">Blog</a></li>
+						<li><a href="/glossary">Glossary of Terms</a></li>
+						<li><a href="/articles">Articles</a></li>
+					</ul>
+				</div>
+				<div class="small-4 columns">
+					<ul class="no-bullet">
+						<li><strong>About GradGuard</strong></li>
+						<li><a href="/about-us">About Us</a></li>
+						<li><a href="/contact-us">Contact Us</a></li>
+						<li><a href="/highered">Schools</a></li>
+						<li><a href="/our-partners">Our Partners</a></li>
+						<li><a href="/careers">Jobs at GradGuard</a></li>
+						<li><a href="/team">Team</a></li>
+						<li><a href="/partner-with-us">Partner With Us</a></li>
+						<li><a href="http://account.gradguard.com">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="eleven centered columns">
+			<p style="text-align:center;">Copyright &copy; 2009-2017 - GradGuard.  All rights reserved.  GradGuard is a service of <a href="http://nextgenins.com">Next Generation Insurance Group, LLC</a>. <br /> <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/licensing-information">Licensing Information</a> | <a href="/quoting-compensation-disclosure">Quoting & Compensation Disclosure</a></p>
+		</div>
+	</div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
 </html>
