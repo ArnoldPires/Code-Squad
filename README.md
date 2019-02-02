@@ -1,2 +1,2 @@
-# Git-practice
+# Code squad
 This is just for practice
