@@ -1,11 +1,11 @@
-h1,h3,p {
-  text-align: center;
-}
-p {
-  width: 50%;
-}
+  body {
+    background-color: ghostwhite;
+  }
   section {
     text-align: -webkit-center;
+  }
+  h1,h3,p {
+    width: 50%;
   }
   table {
     text-align: center;
@@ -19,3 +19,16 @@ p {
   .food_subjects img {
     height: 300px;
   }
+.float-right {
+  float:right;
+}
+.float-left {
+  float: left;
+}
+.sources {
+  width: 100%;
+  float: left;
+}
+.center {
+  text-align: center;
+}
