@@ -1,0 +1,21 @@
+h1,h3,p {
+  text-align: center;
+}
+p {
+  width: 50%;
+}
+  section {
+    text-align: -webkit-center;
+  }
+  table {
+    text-align: center;
+  }
+  td {
+    width: 1px;
+  }
+  img {
+    height: 60px;
+  }
+  .food_subjects img {
+    height: 300px;
+  }
