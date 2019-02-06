@@ -1,11 +1,16 @@
   body {
     background-color: ghostwhite;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   section {
     text-align: -webkit-center;
   }
   h1,h3,p {
     width: 50%;
+  }
+  h1 {
+    font-size: -webkit-xxx-large;
   }
   table {
     text-align: center;
@@ -31,4 +36,7 @@
 }
 .center {
   text-align: center;
+}
+footer {
+  margin-bottom: 200px;
 }
