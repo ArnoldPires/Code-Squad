@@ -1,28 +1,34 @@
-  body {
-    background-color: ghostwhite;
-    margin-left: 20%;
-    margin-right: 20%;
+body {
+  background-image: url(https://img.freepik.com/free-photo/colorful-healthy-unhealthy-food-white-textured-background_23-2147885658.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: ghostwhite;
+  margin-left: 20%;
+  margin-right: 20%;
   }
-  section {
-    text-align: -webkit-center;
+section {
+  border-radius: 70px;
+  text-align: -webkit-center;
+  background-color: #f8f8ffbf;
+  padding: 20px;
+}
+h1,h3,p {
+  width: 50%;
+}
+h1 {
+  font-size: -webkit-xxx-large;
+}
+table {
+  text-align: center;
+}
+td {
+  width: 1px;
+}
+img {
+  height: 60px;
   }
-  h1,h3,p {
-    width: 50%;
-  }
-  h1 {
-    font-size: -webkit-xxx-large;
-  }
-  table {
-    text-align: center;
-  }
-  td {
-    width: 1px;
-  }
-  img {
-    height: 60px;
-  }
-  .food_subjects img {
-    height: 300px;
+.food_subjects img {
+  height: 300px;
   }
 .float-right {
   float:right;
@@ -33,9 +39,15 @@
 .sources {
   width: 100%;
   float: left;
+  background-color: #f8f8ffbf;
 }
 .center {
   text-align: center;
+  background-color: #f8f8ffbf;
+  padding: 20.6px;
+}
+li {
+    font-weight: bolder
 }
 footer {
   margin-bottom: 200px;
