@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>shooter-aframe</title>
+    <script src="https://aframe.io/aframe/dist/aframe-master.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img src="https://ucarecdn.com/5601aef1-fe20-4dda-92ac-3bfdde78f5fa/" id="grid" crossorigin="anonymous">
+        <img id="sky" src="https://ucarecdn.com/c22d908c-20ba-4e10-a5ea-83002b3c9678/" crossorigin="anonymous" />
+        <img id="texture-wall" src="https://ucarecdn.com/74d33038-73fb-46b7-b884-72538c6577e7/" />
+    </a-assets>
+    <a-sky src="#sky" rotation="0 -90 0"></a-sky>
+    <a-ocean position="0 0 0"
+        geometry="primitive: plane; width: 100; height: 200;" rotation="-90 0 0"
+        material="src: #grid; repeat: 5 10; ;metalness:0.6; transparent: true; opacity: 0.7; sphericalEnvMap: #sky;">
+    </a-ocean>
+
+    <a-sphere id="sphere" color="gray" position="628.67 404.56 -430.08" radius="400" material="src:url(https://ucarecdn.com/78368b31-3a3e-49d0-9b1d-35eea30e5813/);color:gray" geometry="primitive:sphere;radius:400">
+          <a-animation attribute="rotation" dur="90000" fill="forwards" to="0 36 2000" repeat="indefinite"></a-animation>
+        </a-sphere>
+
+        <a-sphere id="sphere" color="gray" position="-520.34 800 500" radius="200" material="src:url(https://ucarecdn.com/e4623b87-c9c3-4a4e-af7d-98b119bdca8f/);color:gray" geometry="primitive:sphere;radius:200">
+      <a-animation attribute="rotation" dur="90000" fill="forwards" to="0 36 2000" repeat="indefinite"></a-animation>
+    </a-sphere>
+    </a-scene>
+  </body>
+</html>
