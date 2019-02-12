@@ -1,0 +1,33 @@
+.container {
+  margin: 2%;
+}
+.clearfix {
+  overflow: auto;
+}
+.title {
+  font-family: impact;
+}
+.title-image {
+  height: 30px;
+  position: relative;
+  top: 15px;
+  padding: 5px;
+}
+.title, .title-image, .forecast {
+  float: left;
+}
+.forecast {
+  width: 100%;
+}
+.forecast h3 {
+  font-size: x-large;
+}
+.forecast img {
+  height: 20rem;
+  border-style: dotted;
+  border-color: darkgray;
+  border-width: thick;
+}
+.colored {
+  background-color: #a9a9a96b;
+}
