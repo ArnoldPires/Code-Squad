@@ -1,0 +1,28 @@
+header, footer {
+  background-color: gray;
+  padding: 20px;
+}
+header {
+  border-bottom: solid;
+}
+h1, footer a {
+  color: white;
+}
+footer {
+  border-top: solid;
+}
+.square, .square-border {
+  background-color: orange;
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+}
+.square-border {
+  border: blue solid 10px;
+}
+.square-in-square {
+  background-color: green;
+  height: 125px;
+  width: 135px;
+  float: right;
+}
