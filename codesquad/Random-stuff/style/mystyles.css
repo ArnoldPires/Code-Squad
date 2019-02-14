@@ -1,17 +1,5 @@
-body {
-background-color: #313d80de;
-color: #FFFFFF;
-}
-h1 {
-color: #f4291a;
-text-align: center;
-font: italic 200% fantasy;
-}
-p {
-background-color: #FFFF33;
-color: #333300;
-text-align: center;
-border: 3px groove #FFFF33;
-font-weight: bold;
-font-family: cursive;
+div {
+  background-color: red;
+  height: 500px;
+  width: 500px;
 }
