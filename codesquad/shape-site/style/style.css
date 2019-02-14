@@ -1,6 +1,6 @@
 header, footer {
   background-color: gray;
-  padding: 20px;
+  padding: 25px;
 }
 header {
   border-bottom: solid;
@@ -13,7 +13,7 @@ footer {
 }
 .square, .square-border {
   background-color: orange;
-  margin: 40px;
+  margin: 80px;
   width: 250px;
   height: 250px;
 }
@@ -21,8 +21,27 @@ footer {
   border: blue solid 10px;
 }
 .square-in-square {
-  background-color: green;
-  height: 125px;
-  width: 135px;
+  height: 130px;
+  width: 140px;
   float: right;
+}
+.square-in-square, .square-in-square-in-a-circle {
+  background-color: green;
+}
+.square-in-square-in-a-circle {
+  height: 140px;
+  width: 155px;
+  margin: 0 auto;
+  position: relative;
+  top: 55px;
+}
+.circle, .circle-with-border, .circle-with-a-square {
+  background-color: blue;
+  border-radius: 140px;
+  height: 250px;
+  margin: 80px;
+  width: 250px;
+}
+.circle-with-border {
+  border: solid orange 12px;
 }
