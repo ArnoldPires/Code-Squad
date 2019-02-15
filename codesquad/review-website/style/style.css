@@ -10,10 +10,21 @@
 body {
   font-family: Righteous, monospace, Helvetica, Verdana, Geneva, sans-serif;
   font-size: 16px;
+  color: white;
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
 }
+.background-image-1 {
+  background: linear-gradient(
+  #757474e0,
+  #757474e0),
+  url(../images/gw2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  }
 header {
   background-color: #1f1f1f;
   color: white;
@@ -33,16 +44,67 @@ nav ul li {
 nav ul li a {
   padding: 20px;
 }
- h1 {
-  text-align: center;
+.logo-1 {
+  position: absolute;
 }
-.logo {
-  height: 70px;
+.logo-1, .logo-2 {
+  height: 80px;
+  margin: 8px;
 }
 li {
   list-style-type: none;
+  padding: 5px;
 }
-.link {
-  text-decoration: none;
+.link, h1 {
   color: white;
+  font-size: -webkit-xxx-large;
+  text-decoration: none;
+  text-align: center;
+}
+span {
+  font-size: x-large;
+}
+.categories {
+  background-color: #1f1f1fc2;
+  display: flex;
+  margin: 30px;
+  width: 30%;
+  height: auto;
+  padding: 40px;
+}
+.game-categories, .movie-categories {
+  flex: auto;
+  text-align: center;
+}
+.line-1 {
+  border-bottom: 2px solid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: red;
+}
+.background-image-2 {
+  background: linear-gradient(
+    #757474e0,
+    #757474e0),
+    url(../images/warframe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.bottom-center {
+  text-align: center;
+  padding-bottom: 30px;
+}
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  height: auto;
+  width: 100%;
+  margin-top: 80px;
 }
