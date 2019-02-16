@@ -1,5 +1,7 @@
+img {
+  height: 200px;
+  float: right;
+}
 div {
-  background-color: red;
-  height: 500px;
-  width: 500px;
+  float: left;
 }
