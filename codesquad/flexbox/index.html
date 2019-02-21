@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Learning FlexBox</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>This creation is for learning flexbox</h1>
+  <br>
+  <br>
+    <div class="container">
+      <div>
+        <h3>A nav with 3 items:</h3>
+        <p>This is display flex</p>
+        <nav class="nav1">
+          <div>Home</div>
+          <div>Search</div>
+          <div>Logout</div>
+        </nav>
+      </div>
+      <div class="line">
+        <h3>Nav with justify-content: center;</h3>
+        <nav class="nav2">
+          <div>Home</div>
+          <div>Search</div>
+          <div>Logout</div>
+        </nav>
+      </div>
+      <div class="line">
+        <h3>Nav with justify-content: space-between;</h3>
+        <nav class="nav3">
+          <div>Home</div>
+          <div>Search</div>
+          <div>Logout</div>
+        </nav>
+      </div>
+      <div class="line">
+        <h3>There are different ways you can use "justify-content"</h3>
+        <p>flex-start (default)</p>
+        <p>flex-end</p>
+        <p>center</p>
+        <p>space-between</p>
+        <p>space-around</p>
+        <p>space-evenly</p>
+      </div>
+      <div class="line">
+        <h3>You can move specific items to the side if you want, while leaving others alone, using margin-left:auto</h3>
+        <nav class="nav4">
+          <div>Home</div>
+          <div>Search</div>
+          <div class="logout">Logout</div>
+        </nav>
+      </div>
+      <div class="line">
+        <h3>In this example, only "search" has a class that pushes it to the side. Still using margin-left:auto</h3>
+        <nav class="nav5">
+          <div>Home</div>
+          <div class="logout">Search</div>
+          <div>Logout</div>
+        </nav>
+      </div>
+      <div class="line">
+        <h3>Making flex properties responsive</h3>
+        <nav class="nav6">
+          <div>Home</div>
+          <div>Search</div>
+          <div>Logout</div>
+
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
