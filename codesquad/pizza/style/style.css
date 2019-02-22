@@ -1,0 +1,34 @@
+body {
+  font-family: Trebuchet MS, Arial, san-serif;
+  font-size: x-large;
+}
+h1 {
+  text-align: center;
+}
+.pizza, .burger {
+  height: auto;
+  width: 30%;
+  border: solid 3px #f8d302;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+}
+.pizza img, .burger img {
+  width: 100%;
+  height: auto;
+}
+.food, .price {
+display: flex;
+padding: 1%;
+}
+.price {
+  justify-content: flex-end;
+}
+.food {
+  justify-content: flex-start;
+  float: left;
+}
