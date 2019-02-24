@@ -1,0 +1,40 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid lightgray;
+  padding: 10px;
+}
+h3 {
+  font-weight: bold;
+  font-size: x-large;
+  margin: 0;
+}
+.articles {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.article-1, .article-2{
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  width: 35%;
+}
+p {
+  margin-bottom: 0;
+  width: 350px;
+}
+.subscribe {
+  text-align: center;
+  margin: 40px;
+}
+img {
+  width: 100%;
+}
