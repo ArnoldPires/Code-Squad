@@ -1,9 +1,10 @@
 body {
   font-family: Trebuchet MS, Arial, san-serif;
-  font-size: x-large;
+  font-size: large;
 }
 h1 {
   text-align: center;
+  font-size: xx-large;
 }
 .pizza, .burger {
   height: auto;
@@ -22,13 +23,13 @@ h1 {
   height: auto;
 }
 .food, .price {
-display: flex;
-padding: 1%;
-}
-.price {
-  justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
 }
 .food {
-  justify-content: flex-start;
-  float: left;
+  width: 155px;
+}
+.price {
+  
 }
