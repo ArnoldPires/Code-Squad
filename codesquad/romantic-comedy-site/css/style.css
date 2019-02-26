@@ -8,6 +8,9 @@ body {
 header {
   background-color: rgb(248, 155, 170);
 }
+.flex {
+  display: flex;
+}
 h1 {
   color: white;
   padding: 20px;
@@ -21,12 +24,22 @@ h1 {
   margin: 10px;
   text-decoration: none;
 }
-a {
+.movie-categories a {
+  color: rgb(240, 74, 74);
+}
+h2 {
   color: rgb(240, 74, 74);
 }
 nav {
   color: white;
   background-color: rgb(248, 155, 170);
+}
+ul {
+  width: 200px;
+}
+li {
+  margin: 15px;
+  font-weight: bold;
 }
 .comedies {
   background-color: #f6e2cc;
