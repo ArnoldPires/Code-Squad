@@ -2,19 +2,29 @@ body {
   color: white;
   font-family: arial;
 }
+h2 {
+  margin: 35px;
+}
 .container{
   display: flex;
+}
+.desert, .stream, .relax {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.stream, .relax {
+  font-size: larger;
 }
 .desert {
   background-image: url(../images/desert780x477.jpg);
   text-align: center;
   height: 477px;
   width: 780px;
-  z-index: 3;
 }
 .line {
   border-bottom: solid 3px orange;
-  z-index: 2;
+  margin: 60px;
+  font-size: -webkit-xxx-large;
 }
 .stream {
   background-image: url(../images/stream420x240.jpg);
@@ -25,7 +35,4 @@ body {
   background-image: url(../images/relax420x237.jpg);
   height: 237px;
   width: 420px;
-}
-.aside {
-  display: grid;
 }
