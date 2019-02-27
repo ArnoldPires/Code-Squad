@@ -1,6 +1,28 @@
 body {
   color: white;
-  font-family: arial;
+  font-family: 'Muli', arial, sans-serif;
+  background-color: #333a35;
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+li {
+  padding: 20px;
+}
+li img {
+  height: 65px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.colored {
+  color: #eca419;
 }
 h2 {
   margin: 35px;
