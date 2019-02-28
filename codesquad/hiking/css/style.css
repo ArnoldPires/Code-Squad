@@ -5,7 +5,7 @@ body {
 }
 ul {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   list-style: none;
 }
 li {
@@ -14,7 +14,7 @@ li {
 li img {
   height: 65px;
   position: absolute;
-  left: 15px;
+  left: 30px;
   top: 5px;
 }
 a {
@@ -34,6 +34,7 @@ h2 {
 }
 .container{
   display: flex;
+  justify-content: center;
   padding-bottom: 6px;
 }
 .desert, .stream, .relax {
@@ -69,7 +70,7 @@ h2 {
   color: #eca419;
   font-size: xx-large;
   margin: -6px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 .gear-section {
   background-color:#dfd7c7;
@@ -80,20 +81,19 @@ h2 {
   background-color: white;
   color: black;
   display: flex;
-  margin-left: 260px;
-  margin-right: 260px;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 5px;
   margin-top: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 2%;
 }
 .gear img {
-  margin: 30px;
+  margin: 20px;
 }
 .text {
   display: flex;
   flex-flow: column;
-  width: 45%;
+  margin: 3%;
 }
 .images {
   position: relative;
