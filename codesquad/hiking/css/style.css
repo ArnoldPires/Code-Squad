@@ -34,6 +34,7 @@ h2 {
 }
 .container{
   display: flex;
+  padding-bottom: 6px;
 }
 .desert, .stream, .relax {
   display: flex;
@@ -62,4 +63,51 @@ h2 {
   background-image: url(../images/relax420x237.jpg);
   height: 237px;
   width: 420px;
+}
+.gear-section h2 {
+  text-align: center;
+  color: #eca419;
+  font-size: xx-large;
+  margin: -6px;
+  padding-top: 120px;
+}
+.gear-section {
+  background-color:#dfd7c7;
+  padding-bottom: 50px;
+}
+.gear {
+  align-items: center;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-left: 260px;
+  margin-right: 260px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.gear img {
+  margin: 30px;
+}
+.text {
+  display: flex;
+  flex-flow: column;
+  width: 45%;
+}
+.images {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.candles {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.badge {
+  position: absolute;
+  top: 160px;
+  left: 90px;
+  z-index: 1;
 }
