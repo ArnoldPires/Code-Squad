@@ -46,82 +46,96 @@ li {
 }
 .background-image-1 {
   background: linear-gradient(
-  #757474e0,
-  #757474e0),
-  url(../images/gw2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: left;
-  width: 100%;
-  height: auto;
+    #757474e0,
+    #757474e0),
+    url(../images/gw2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
   }
   .name {
     padding: 15px;
   }
-.link, h1 {
-  color: white;
-  font-size: -webkit-xxx-large;
-  text-decoration: none;
-  text-align: center;
-}
-span {
-  font-size: x-large;
-}
-.categories {
-  background-color: #1f1f1fc2;
-  display: flex;
-  float: left;
-  margin: 30px;
-  width: 30%;
-  height: auto;
-  padding: 40px;
-}
-.game-categories, .movie-categories {
-  flex: auto;
-  text-align: center;
-}
-.line-1 {
-  border-bottom: 2px solid;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-a {
-  color: white;
-}
-a:hover {
-  color: red;
-}
-.background-image-2 {
-  background: linear-gradient(
-    #757474e0,
-    #757474e0),
-    url(../images/warframe.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: left;
-    width: 100%;
-    height: auto;
-}
-.latest-review {
-  background-color: #1f1f1fc2;
-  display: flex;
-  float: right;
-  margin: 30px;
-  width: 60%;
-  height: auto;
-  padding: 40px;
-}
-.latest-review h3 {
-
-}
-.bottom-center {
-  text-align: center;
-  padding-bottom: 30px;
-}
-footer {
-  background-color: #1f1f1f;
-  color: white;
-  height: auto;
-  width: 100%;
-  margin-top: 80px;
-}
+  .review-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .link, h1 {
+    color: white;
+    font-size: -webkit-xxx-large;
+    text-decoration: none;
+    text-align: center;
+  }
+  .game-categories span, .movie-categories span {
+    font-size: x-large;
+  }
+  .categories {
+    background-color: #1f1f1fc2;
+    display: flex;
+    margin: 30px;
+    width: 30%;
+    height: 530px;
+    padding: 40px;
+  }
+  .game-categories, .movie-categories {
+    flex: auto;
+    text-align: center;
+  }
+  .line-1 {
+    border-bottom: 2px solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .line-2 {
+    border: solid 1px;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: red;
+  }
+  .background-image-2 {
+    background: linear-gradient(
+      #757474e0,
+      #757474e0),
+      url(../images/warframe.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+    }
+    .latest-review {
+      background-color: #1f1f1fc2;
+      margin: 30px;
+      width: 60%;
+      height: auto;
+      padding: 40px;
+    }
+    .review-search {
+      width: 100%;
+    }
+    .review {
+      border: 1px solid;
+      height: 200px;
+      width: 30%;
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+    .caption {
+      display: block;
+    }
+    .bottom-center {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      height: auto;
+      width: 100%;
+      margin-top: 80px;
+    }
