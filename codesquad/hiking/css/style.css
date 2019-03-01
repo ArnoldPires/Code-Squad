@@ -5,7 +5,7 @@ body {
 }
 ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   list-style: none;
 }
 li {
@@ -65,13 +65,29 @@ h2 {
   height: 237px;
   width: 420px;
 }
+.hike-section {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hike-section img {
+  height: 185px;
+}
+.strip-image {
+  margin: 30px;
+}
+.strip-image p {
+  font-weight: bold;
+  width: 282px;
+}
 .gear-section h2 {
   text-align: center;
   color: #eca419;
-  font-size: xx-large;
-  margin-top: -6px;
-  margin-bottom: -6px;
-  padding-top: 60px;
+  font-size: -webkit-xxx-large;
+  margin-top: 0px;
+  margin-bottom: -10px;
+  padding-top: 100px;
 }
 .gear-section {
   background-color:#dfd7c7;
@@ -90,6 +106,12 @@ h2 {
 }
 .gear img {
   margin: 20px;
+}
+.gear a {
+  color: black;
+}
+.gear a:hover {
+  color: #eca419;
 }
 .text {
   display: flex;
