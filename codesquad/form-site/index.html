@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Form Site</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>WePaintInteriors - the interior painting pros</h1>
+  <p>We're excited to paint your room or office! Please fill out the form below to receive a quote:</p>
+  <form action="https://www.w3schools.com/action_page.php" method="post">
+    <div class="formElement">
+      <label for="first-name">First Name</label>
+      <input class="fle" type="text" name="first-name" placeholder="Richard">
+    </div>
+    <div class="formElement">
+      <label for="last-name">Last Name</label>
+      <input class="fle" type="text" name="last-name" placeholder="Hendricks">
+    </div>
+    <div class="formElement">
+      <label for="email">Email</label>
+      <input class="fle" type="text" name="email-address" placeholder="richard@piedpiper.com">
+    </div>
+    <div class="formElement">
+      <label for="address">Address</label>
+      <input class="nas" class="address" type="text" name="Number and street" placeholder="Number and street">
+      <input class="address" type="text" name="City" placeholder="City">
+      <input class="address" type="text" name="State" placeholder="State">
+      <input class="address" type="text" name="Zip Code" placeholder="Zip Code">
+    </div>
+    <div class="formElement">
+      <label for="date">Desired Start:</label>
+      <input type="date" name="date">
+      <label for="time">Time</label>
+      <input type="time" name="time">
+      <label for="color">Desired paint color</label>
+      <input type="color">
+    </div>
+    <div class="formElement">
+      <label for="comments">Comments:</label>
+      <textarea name='comment' id='comment'></textarea>
+    </div>
+    <button>Submit</button>
+  </form>
+</body>
+</html>
