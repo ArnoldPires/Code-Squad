@@ -41,8 +41,10 @@ label {
   width: 5%;
 }
 .mdy {
-  margin-left: 17px;
   width: 20%;
+}
+.time {
+  width: 105px;
 }
 .dpc {
   width: 10%;
