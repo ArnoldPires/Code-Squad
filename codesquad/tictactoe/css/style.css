@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+div {
+  width: 100px;
+  height: 100px;
+}
+.container {
+  margin: 5px auto;
+}
+.line-1 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.line-2 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
