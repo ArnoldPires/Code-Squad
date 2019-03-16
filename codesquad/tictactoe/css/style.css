@@ -2,17 +2,78 @@ h1 {
   text-align: center;
 }
 div {
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 130px;
+  margin: 0 auto;
 }
-.container {
-  margin: 5px auto;
+.box {
+  border: 3px solid;
+  border-left: 0px;
+  border-bottom: 0px;
 }
-.line-1 {
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+.row {
+  display: flex;
 }
-.line-2 {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+.border-t {
+  border-top: 0px;
+}
+img {
+  height: 130px;
+}
+#o-1{
+  display: none;
+  }
+#o-2{
+  display: none;
+}
+#o-3{
+  display: none;
+}
+#o-4{
+  display: none;
+}
+#o-5{
+  display: none;
+}
+#o-6{
+  display: none;
+}
+#o-7{
+  display: none;
+}
+#o-8{
+  display: none;
+}
+#o-9{
+  display: none;
+}
+#x-1{
+  display: none;
+}
+#x-2{
+  display: none;
+}
+#x-3{
+  display: none;
+}
+#x-4{
+  display: none;
+}
+#x-5{
+  display: none;
+}
+#x-6{
+  display: none;
+}
+#x-7{
+  display: none;
+}
+#x-8{
+  display: none;
+}
+#x-9{
+  display: none;
+}
+.border-r {
+  border-right: 0px; {
 }
