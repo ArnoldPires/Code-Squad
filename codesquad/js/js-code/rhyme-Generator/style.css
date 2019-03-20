@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+button {
+  width: 101px;
+  height: 50px;
+  border-radius: 5%;
+}
