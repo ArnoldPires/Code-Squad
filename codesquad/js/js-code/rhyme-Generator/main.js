@@ -10,7 +10,7 @@ function fleece() {
 }
 function lineBreak() {
   rhyme += "\n";
-
+}
 function displayrhyme() {
   alert(rhyme += "");
 }
