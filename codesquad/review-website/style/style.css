@@ -104,15 +104,27 @@ a:hover {
 }
 .latest-review {
   background-color: #1f1f1fc2;
-  display: flex;
   float: right;
   margin: 30px;
   width: 60%;
   height: auto;
   padding: 40px;
 }
-.latest-review h3 {
+.lrh3s {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lrh3s input {
+  width: 25rem;
+  height: 2rem;
+}
 
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+}
+.reviews img {
+  width: 160px;
 }
 .bottom-center {
   text-align: center;
