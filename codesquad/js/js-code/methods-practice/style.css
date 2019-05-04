@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  font-family: Roboto;
+}
+.box {
+  border: solid #ccc 1px;
+  width: 420px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+}
