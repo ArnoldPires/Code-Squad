@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>Sample Calculator App</title>
+  Stayed up late coding after work last night, and today I found all these errors in my code. NONE of my JavaScript is
+  working!! Please fix the calculator for me.
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+    .box {
+      width: 13em;
+      height: 15em;
+      border: 2px solid blue;
+    }
+    button {
+      width: 3em;
+      margin: 0.5em 0.25em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <p class="container">
+        <input type="text" readonly size="18" id="display">
+      </p>
+      <div class="container">
+        <button onclick="memRemember()">mr</button>
+          <button onclick="memPlus()">m+</button>
+          <button onclick="memSave()">ms</button>
+          <button onclick='append("/")'>/</button>
+      </div>
+      <div class="container">
+        <button onclick='append(7)'>7</button>
+        <button onclick='append(8)'>8</button>
+        <button onclick='append(9)'>9</button>
+        <button onclick='append("*")'>*</button>
+      </div>
+      <div class="container">
+        <button onclick='append(4)'>4</button>
+        <button onclick='append(5)'>5</button>
+        <button onclick='append(6)'>6</button>
+        <button onclick='append("-")'>-</button>
+      </div>
+      <div class="container">
+        <button onclick='append(1)'>1</button>
+        <button onclick='append(2)'>2</button>
+        <button onclick='append(3)'>3</button>
+        <button onclick='append("+")'>+</button>
+      </div>
+      <div class="container">
+        <button onclick='append(0)'>0</button>
+        <button onclick='append(".")'>.</button>
+        <button onclick='replace("")'>C</button>
+        <button onclick='equals()'>=</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
