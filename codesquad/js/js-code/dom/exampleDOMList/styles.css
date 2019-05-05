@@ -1,0 +1,21 @@
+
+body {
+background-color: lightgray;
+text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+#countSection {
+    height: 50px;
+    width: 150px;
+    border: solid 2px green;
+    margin: 10px auto;
+    padding: 5px 20px;
+
+}
+li {
+  list-style-type: none;
+}
