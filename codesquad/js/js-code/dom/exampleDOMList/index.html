@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>DOM Excersize</title>
+</head>
+
+<body>
+    <h1>Clyde's Grocery List</h1>
+    <img style="height:80px" src="Images/list-icon.png" alt="list-logo">
+    <p>Clyde has very bad memory so construct a list for him so his girlfriend doesnt get mad at him</p>
+    <hr>
+    <h3>Grocery Items:</h3>
+    <ul id="grocerylist">
+
+    </ul>
+    <hr>
+    <form action="">
+        <label for="g-item">Grocery Item:</label>
+        <input type="text" name="g-item" id="g-item">
+
+        <input type="submit" value="ADD" id="submit">
+    </form>
+
+
+    <!-- Bonus material  -->
+    <!-- 6 -->
+    <form action="">
+        <label for="r-item">Remove Item:</label>
+        <input type="text" name="r-item" id="r-item">
+
+        <input style='margin-top:10px' type="submit" value="REMOVE" id="r-submit">
+    </form>
+
+
+
+    <!-- 7 -->
+    <div id="countSection">
+        <h4> <span id="itemCount"></span> : Items in the list.</h4>
+    </div>
+    <input type="submit" value="GET TOTAL" id="getTotal">
+
+    <hr>
+    <script src="script.js"></script>
+</body>
+
+</html>
