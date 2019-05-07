@@ -1,0 +1,19 @@
+header {
+  background-color: #4682b4;
+  color: white;
+}
+.teh {
+  color: #4682b4;
+}
+.container {
+  background-color: black;
+  height: -webkit-fill-available;
+}
+.color {
+  background-color: red;
+  border-radius: 20px;
+  margin: 6%;
+  height: 150px;
+  display: -webkit-inline-box;
+  width: 20%;
+}
