@@ -7,24 +7,27 @@
   </head>
   <body>
     <header>
-      <h3>THE GREAT</h3>
-      <h1>RGB(176, 26, 134)</h1>
-      <h3>GUESSING GAME</h3>
+      <h1>
+    		The Great <br />
+    		<span id="hiddenColor"></span><br />
+    		Guessing Game
+    	</h1>
     </header>
     <section class="teh">
-      <button onclick="changeColors()">NEW COLORS</button>
+      <button id="changeColors">NEW COLORS</button>
       <div class="difficulty">
-        <button onclick="easy()">EASY</button>
-        <button onclick="hard()">HARD</button>
+        <button id="easy">EASY</button>
+        <button id="hard">HARD</button>
+        <span id="message"></span>
       </div>
     </section>
     <section class="container">
-      <div class="colorContainer-1">
+      <div class="colorContainer">
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
       </div>
-      <div class="colorContainer-2">
+      <div class="colorContainer">
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
