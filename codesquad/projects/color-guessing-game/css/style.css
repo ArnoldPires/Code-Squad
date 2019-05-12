@@ -1,20 +1,16 @@
 body {
   margin: 0 auto;
+  font-family: "MuseoSans";
 }
 header {
-  background-color: #4682b4;
+  background-color: rgb(35, 35, 35);
   color: white;
   display: flow-root;
   text-align: center;
   padding: 15px;
 }
-h3 {
-  font-size: xx-large;
-}
 h1 {
   font-size: -webkit-xxx-large;
-}
-h3, h1 {
   margin: 0 auto;
 }
 .teh {
@@ -35,9 +31,10 @@ h3, h1 {
 }
 .container {
   background-color: black;
-  height: 470px;
+  height: auto;
+  padding-bottom: 5%;
 }
-.colorContainer-1, .colorContainer-2 {
+.colorContainer {
   display: flex;
   justify-content: space-evenly;
   margin-left: 20%;
@@ -45,11 +42,10 @@ h3, h1 {
   padding-top: 15px;
 }
 .color {
-  background-color: red;
-  border-radius: 20px;
-  margin: 1%;
-  height: auto;
-  padding: 10%;
   display: -webkit-inline-box;
-  width: 30%;
+	width: 30%;
+	padding: 10%;
+	margin: 1%;
+	border-radius: 20px;
+	transition: background 0.6s; /* .6 seconds to fade out*/
 }
