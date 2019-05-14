@@ -1,0 +1,1 @@
+Go to the root directory, fruits sub-directory, then melon sub-directory.  Open cantaloupe.txt.

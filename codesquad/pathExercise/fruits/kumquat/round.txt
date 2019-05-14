@@ -1,0 +1,3 @@
+YOU MADE IT!
+
+Go to the whiteboard and write the number of letters in your first name.  For example, if your name was "Alice," you would write "5."
