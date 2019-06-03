@@ -7,27 +7,23 @@
   </head>
   <body>
     <header>
-      <h1>
-    		The Great <br />
-    		<span id="hiddenColor"></span><br />
-    		Guessing Game
-    	</h1>
+      <h1>The Great<br><span id="hiddenColor"></span><br>Guessing Game</h1>
     </header>
     <section class="teh">
       <button id="changeColors">NEW COLORS</button>
+      <span id="message"></span>
       <div class="difficulty">
-        <button id="easy">EASY</button>
-        <button id="hard">HARD</button>
-        <span id="message"></span>
+        <button onClick="easyMode()">EASY MODE</button>
+        <button onClick="window.location.reload();">HARD MODE</button>
       </div>
     </section>
     <section class="container">
-      <div class="colorContainer">
+      <div id="colorContainer-1">
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
       </div>
-      <div class="colorContainer">
+      <div id="colorContainer-2">
         <div class="color"></div>
         <div class="color"></div>
         <div class="color"></div>
