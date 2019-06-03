@@ -25,6 +25,10 @@ h1 {
   background-color: white;
   margin: 5px;
 }
+#message {
+  font-size: x-large;
+  font-weight: bold;
+}
 .teh button:hover {
   background-color: #4682b4;
   color: white;
@@ -34,7 +38,7 @@ h1 {
   height: auto;
   padding-bottom: 5%;
 }
-.colorContainer {
+#colorContainer-1, #colorContainer-2 {
   display: flex;
   justify-content: space-evenly;
   margin-left: 20%;
@@ -47,5 +51,5 @@ h1 {
 	padding: 10%;
 	margin: 1%;
 	border-radius: 20px;
-	transition: background 0.6s; /* .6 seconds to fade out*/
+	transition: background 0.9s;
 }
