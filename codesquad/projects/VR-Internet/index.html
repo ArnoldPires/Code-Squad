@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>shooter-aframe</title>
-    <script src="https://aframe.io/aframe/dist/aframe-master.min.js"></script>
+    <title>VR Internet</title>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
   </head>
   <body>
@@ -18,14 +18,25 @@
         geometry="primitive: plane; width: 100; height: 200;" rotation="-90 0 0"
         material="src: #grid; repeat: 5 10; ;metalness:0.6; transparent: true; opacity: 0.7; sphericalEnvMap: #sky;">
     </a-ocean>
-
     <a-sphere id="sphere" color="gray" position="628.67 404.56 -430.08" radius="400" material="src:url(https://ucarecdn.com/78368b31-3a3e-49d0-9b1d-35eea30e5813/);color:gray" geometry="primitive:sphere;radius:400">
           <a-animation attribute="rotation" dur="90000" fill="forwards" to="0 36 2000" repeat="indefinite"></a-animation>
         </a-sphere>
-
         <a-sphere id="sphere" color="gray" position="-520.34 800 500" radius="200" material="src:url(https://ucarecdn.com/e4623b87-c9c3-4a4e-af7d-98b119bdca8f/);color:gray" geometry="primitive:sphere;radius:200">
       <a-animation attribute="rotation" dur="90000" fill="forwards" to="0 36 2000" repeat="indefinite"></a-animation>
     </a-sphere>
+    <a-box id="wall-one" material="src: #texture-wall" depth="1" width="70" height="15" position="-6.52 8 0" rotation="0 90 0" ></a-box>
+      <a-box id="wall-one-3" material="src:#texture-wall" depth="1" width="70" height="15" position="12.79 8 -0.26" rotation="0 90 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-3" material="src:#texture-wall"position="12.73 8 68.05" rotation="0 90 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-5" material="src:#texture-wall"  position="12.63 8 137.47" rotation="0 90 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-4" material="src:#texture-wall"  position="-6.52 8 138.62" rotation="0 90 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="wall-one-2" material="src:#texture-wall" position="-6.52 8 70.08" rotation="0 90 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-2" material="src:#texture-wall" position="3.03 8 -35.43" rotation="0 180 0" geometry="primitive:box;depth:1;width:20;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-6" material="src:#texture-wall" position="-6.52 8 183.55" rotation="0 90 0" geometry="primitive:box;depth:1;width:20;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-7" material="src:#texture-wall" position="28.28 8 193.69" rotation="0 180 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-8" material="src:#texture-wall" position="47.84 8 172.01" rotation="0 180 0" geometry="primitive:box;depth:1;width:70;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-9" material="src:#texture-wall" position="71.71 8 193.67" rotation="0 180 0" geometry="primitive:box;depth:1;width:20;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="one-10" material="src:#texture-wall" position="82.39 8 182.17" rotation="0 90 0" geometry="primitive:box;depth:1;width:23;height:15" scale="1 1 1" visible="true"></a-box>
+      <a-box id="hireme" material="src:#hireme" position="82.39 8 182.17" rotation="0 90 0" geometry="primitive:box;depth:1;width:23;height:15" scale="1 1 1" visible="true"></a-box>
     </a-scene>
   </body>
 </html>
