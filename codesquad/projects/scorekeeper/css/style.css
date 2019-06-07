@@ -1,7 +1,19 @@
+body {
+  background-image: url(https://www.tes.com/sites/default/files/tes-resources-sports.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
 .container {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  margin-top: 17%;
+}
+span {
+  font-size: 60px;
+  font-weight: bold;
+}
+input, button {
+  padding: 10px;
 }
